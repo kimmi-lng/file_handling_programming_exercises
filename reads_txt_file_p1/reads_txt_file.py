@@ -9,3 +9,12 @@ class ExtractNumbers:
 
     def find_even_odd(self):
         content = self.read_file()
+        with open("even.txt", "w") as even_numbs_file, open("odd.txt", "w") as odd_numbs_file:
+            for line in content:
+                    numbers = int(line)
+                    if numbers % 2 == 0:
+                        even_numbs_file.write(f"{numbers}\n")
+                    else:
+                        odd_numbs_file.write(f"{numbers}\n")
+
+ExtractNumbers().find_even_odd()
