@@ -16,5 +16,3 @@ class ExtractNumbers:
                         even_numbs_file.write(f"{numbers}\n")
                     else:
                         odd_numbs_file.write(f"{numbers}\n")
-
-ExtractNumbers().find_even_odd()
