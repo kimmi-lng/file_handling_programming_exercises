@@ -11,5 +11,8 @@ class AddTexts:
             choice = input("Are there more lines y/n? ").lower()
             if choice == 'n':
                 break
-            
+
     def add_texts(self):
+        with open(self.mylife, 'a') as file:
+            for data in self.texts:
+                file.write(data + "\n")   
