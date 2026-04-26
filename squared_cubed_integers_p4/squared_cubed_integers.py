@@ -9,3 +9,13 @@ class SortIntegers:
             content = [line.rstrip('\n') for line in file.readlines()]
         return content
     
+    def sort_integers(self):
+        content = self.read_integers()
+        with open(self.double, "w") as double_file, open(self.triple, "w") as triple_file:
+            for line in content:
+                numbers = int(line)
+                if numbers % 2 == 0:
+                    double_file.write(f"{numbers ** 2}\n")
+                else:
+                    triple_file.write(f"{numbers ** 3}\n")
+    
