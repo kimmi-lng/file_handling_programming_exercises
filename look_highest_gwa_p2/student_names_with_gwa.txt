@@ -1,1 +1,20 @@
-ECHO is on.
+Ron,92
+Christian,90
+Kim,95
+Bernard,96
+Ice,93
+Michael,92
+Grey,90
+Mollyn,88
+Cherry,89
+Vicente,90
+Greanger,75
+Veromos,80
+Angel,90
+Mitchie,98
+Matcha,70
+France,88
+Jeff,67
+Zham,80
+Shann,95
+Rej,97
